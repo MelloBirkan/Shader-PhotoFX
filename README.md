@@ -121,3 +121,7 @@ Para aprender mais sobre os conceitos utilizados:
 - [Metal Shading Language Specification](https://developer.apple.com/metal/Metal-Shading-Language-Specification.pdf)
 - [Apple Metal Documentation](https://developer.apple.com/documentation/metal/)
 - [SwiftUI Documentation](https://developer.apple.com/documentation/swiftui)
+
+```swift
+print("Feito com 💚 por ["Marcello Gonzatto Birkan-10381938", "Daniela Brazolin Flauto-10395891", "Amanda Góis Smanioto-10395773"]")
+```

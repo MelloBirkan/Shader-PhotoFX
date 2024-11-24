@@ -1,0 +1,21 @@
+Projeto: ShaderPhotoFX - Computação Visual
+Link do projeto: https://github.com/MelloBirkan/Shader-PhotoFX
+
+Professor,
+
+Gostaríamos que acessasse nosso GitHub para ver o README do projeto, onde temos GIFs demonstrativos do aplicativo em funcionamento e mais informações técnicas detalhadas.
+
+Viemos apresentar nosso projeto final da disciplina de Computação Visual, que consiste em um aplicativo iOS desenvolvido para demonstrar na prática os conceitos fundamentais de processamento de imagens e computação gráfica através da implementação de shaders.
+
+O aplicativo permite aplicar três tipos diferentes de efeitos visuais em tempo real: pixelização, ondulação animada e filtros de cor (escala de cinza, sépia e inversão). Para isso, utilizamos a Metal Shading Language (MSL) da Apple, que possibilita a programação direta na GPU, garantindo alta performance no processamento das imagens.
+
+Na implementação dos shaders, aplicamos diversos conceitos vistos em aula. O shader de pixelização trabalha com a manipulação espacial dos pixels através da discretização do espaço contínuo. O efeito de ondulação demonstra transformações geométricas dinâmicas usando funções trigonométricas para criar animações suaves. Já os filtros de cor exploram diferentes técnicas de processamento no espaço RGB.
+
+A interface do usuário foi construída em SwiftUI, oferecendo controles intuitivos para ajustar os parâmetros de cada efeito em tempo real. O projeto foi estruturado de forma modular, separando claramente as camadas de interface, lógica de renderização e implementação dos shaders.
+
+Como resultado, conseguimos criar uma aplicação que não só demonstra os conceitos teóricos da disciplina, mas também oferece uma experiência prática e interativa de computação visual. O uso do Metal Framework permitiu implementar processamento de imagens eficiente, aproveitando os recursos da GPU do dispositivo.
+
+Amanda Góis Smanioto-10395773
+Daniela Brazolin Flauto-10395891
+Marcello Gonzatto Birkan-10381938
+
