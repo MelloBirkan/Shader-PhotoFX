@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct ShaderPhotoFXApp: App {
-    var body: some Scene {
-        WindowGroup {
-            MainView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      MainView()
     }
+  }
 }
