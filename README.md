@@ -2,7 +2,7 @@
 
 Um aplicativo iOS que demonstra o poder dos Shaders Metal para aplicação de efeitos visuais em imagens em tempo real. Este projeto foi desenvolvido como parte da disciplina de Computação Visual.
 
-[Inserir GIF demonstrativo do app aqui]
+![Demo do App](gifs/appDemonstrativo.gif)
 
 ## 📝 Sobre o Projeto
 
@@ -15,7 +15,7 @@ O aplicativo oferece três efeitos principais:
 ### 1. Efeito Pixelate
 Permite pixelizar a imagem com controle dinâmico do tamanho dos pixels.
 
-[Inserir GIF do efeito Pixelate]
+![Demo do App](gifs/pixelate.gif)
 
 ```cpp
 [[ stitchable ]] float2 pixellate(float2 position, float size) {
@@ -30,7 +30,7 @@ Aplica uma distorção ondular animada com controles para:
 - Frequência
 - Amplitude
 
-[Inserir GIF do efeito Wave]
+![Demo do App](gifs/wave.gif)
 
 ```cpp
 [[ stitchable ]] float2 wave(float2 position, float time, float speed, float frequency, float amplitude) {
@@ -45,7 +45,7 @@ Inclui três filtros clássicos de processamento de imagem:
 - Sépia
 - Inversão de Cores
 
-[Inserir GIF dos filtros em ação]
+![Demo do App](gifs/filters.gif)
 
 ## 🔧 Tecnologias Utilizadas
 
