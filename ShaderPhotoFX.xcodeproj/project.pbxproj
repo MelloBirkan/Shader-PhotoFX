@@ -11,11 +11,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1B38E14F2CF2C4B7006A141E /* gifs */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = gifs;
-			sourceTree = "<group>";
-		};
 		1B7B92D92CF1A14200FA8B93 /* ShaderPhotoFX */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ShaderPhotoFX;
@@ -37,7 +32,6 @@
 		1B7B92CE2CF1A14200FA8B93 = {
 			isa = PBXGroup;
 			children = (
-				1B38E14F2CF2C4B7006A141E /* gifs */,
 				1B7B92D92CF1A14200FA8B93 /* ShaderPhotoFX */,
 				1B7B92D82CF1A14200FA8B93 /* Products */,
 			);
@@ -67,7 +61,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1B38E14F2CF2C4B7006A141E /* gifs */,
 				1B7B92D92CF1A14200FA8B93 /* ShaderPhotoFX */,
 			);
 			name = ShaderPhotoFX;
