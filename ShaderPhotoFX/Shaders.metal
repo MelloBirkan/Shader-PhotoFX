@@ -41,3 +41,24 @@ using namespace metal;
     
     return half4(sepia, color.a);
 }
+
+[[ stitchable ]] half4 invert(float2 position, SwiftUI::Layer layer) {
+    half4 color = layer.sample(position);
+    return half4(1.0 - color.rgb, color.a);
+}
+
+[[ stitchable ]] half4 blur(float2 position, SwiftUI::Layer layer, float2 texelSize, int radius) {
+    half4 color = half4(0.0);
+    int totalSamples = 0;
+
+    for (int x = -radius; x <= radius; x++) {
+        for (int y = -radius; y <= radius; y++) {
+            float2 offset = float2(x, y) * texelSize;
+            color += layer.sample(position + offset);
+            totalSamples++;
+        }
+    }
+
+    color /= float(totalSamples);
+    return color;
+}

@@ -39,11 +39,11 @@ struct MainView: View {
             .padding(.vertical, 8)
           }
           
-          NavigationLink(destination: GrayScaleEffectView().navigationTitle("Grayscale")) {
+          NavigationLink(destination: FilterEffectsView().navigationTitle("Filter Effects")) {
             HStack {
               Image(systemName: "camera.filters")
                 .foregroundColor(.blue)
-              Text("Grayscale")
+              Text("Filters")
                 .font(.headline)
             }
             .padding(.vertical, 8)
